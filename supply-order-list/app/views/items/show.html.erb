@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @item.name %>
+</p>
+
+<p>
+  <strong>Catelog number:</strong>
+  <%= @item.catelog_number %>
+</p>
+
+<p>
+  <strong>Integer:</strong>
+  <%= @item.integer %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @item.category_id %>
+</p>
+
+<p>
+  <strong>Business:</strong>
+  <%= @item.business_id %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @item.description %>
+</p>
+
+<p>
+  <strong>Amount per one:</strong>
+  <%= @item.amount_per_one %>
+</p>
+
+<p>
+  <strong>Material:</strong>
+  <%= @item.material %>
+</p>
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>
